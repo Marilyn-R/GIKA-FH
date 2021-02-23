@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>pago</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+<!-- multistep form -->
+<form id="msform">
+
+  <!-- progressbar -->
+  <ul id="progressbar">
+    <li class="active">Medio de Pago</li>
+    <li>Datos de Tarjeta</li>
+    <li>Pagar</li>
+  </ul>
+  <!-- fieldsets -->
+  <fieldset>
+    <h2 class="fs-title">Vas a Pagar</h2>
+    <div id="details">
+    <p>Item: Póliza Automotor</p>
+    <p>Descripción: 034521215151/10</p>
+    <p>Monto: $1260.00</p>
+  </div>
+    <h3 class="fs-subtitle">Selecciona el Medio de Pago</h3>
+    <input type="button" name="next" class="next visa" value="Tarjeta de Débito" />
+    <input type="button" name="next" class="next mastercard" value="Tarjeta de Crédito" />
+    <input type="button" name="next" class="next visa" value="Banca móvil" />
+    <input type="button" name="next" class="next mastercard" value="Paypal" />
+
+    <input type="button" name="next" class="next action-button" value="Siguiente" />
+  </fieldset>
+  <fieldset>
+    <h2 class="fs-title">Datos de Tarjeta</h2>
+    <h3 class="fs-subtitle">Complete con los datos de la tarjeta.</h3>
+    <input type="text" name="nrotarjeta" placeholder="Nro de Tarjeta" />
+    <input type="text" name="titular" placeholder="Titular" />
+    
+    <input type="text" name="vencimiento" placeholder="Vencimiento" />
+    <input type="text" name="CVC" placeholder="CVC" />
+    <input type="button" name="previous" class="previous action-button" value="Volver" />
+    <input type="button" name="next" class="next action-button" value="Siguiente" />
+  </fieldset>
+  <fieldset>
+    <h2 class="fs-title">Resumen y Pago</h2>
+    <h3 class="fs-subtitle">Resumen de lo que va a pagar</h3>
+    <p>Item: Póliza Automotor</p>
+    <p>Descripción: 034521215151/10</p>
+    <p>Monto: $1260.00</p>
+    <p>Tarjeta Nro: 4512*********2365</p>
+    <input type="button" name="previous" class="previous action-button" value="Volver" />
+    <input type="submit" name="submit" class="submit action-button" value="Pagar" />
+  </fieldset>
+</form>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

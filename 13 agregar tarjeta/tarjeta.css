@@ -1,0 +1,253 @@
+body {
+        margin: 0;
+        font-family: 'Muli', sans-serif;
+        
+      }
+      
+      h4{
+        align-items: center;
+        justify-content: center;
+      
+      }
+      .center{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 300px;
+      }
+
+      .header {
+        align-items: center;
+        
+        border-radius: 5px;
+        display: flex;
+        height: 100px;
+        justify-content: space-between;
+        top: 0px;
+        width: 100%;
+      }
+      
+      .header__img {
+        margin-left: 0px;
+        width: 110px;
+        top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+      .login {
+        background-image: #f072df1f;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 30px;
+        min-height: calc(100vh - 200px); /* El ancho será igual al tamaño de todo el height menos 200px (100px del header + 100px del footer) */
+      }
+      
+      .login__container {
+        box-shadow: 0 14px 28px rgb(212 206 206 / 25%), 4px -1px 20px 0px rgb(195 188 188 / 22%);
+        color: #722e80;
+        border-radius: 30px;
+        display: flex;
+        
+        flex-direction: column;
+        justify-content: space-around;
+        min-height: 490px;
+        padding: 10px 58px 10px;
+        width: 300px;
+      }
+      
+      .login__container--form {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .login__container--form label {
+        font-size: 14px;
+       
+      }
+      
+      .login__container--remember-me {
+        color: #6d1a77;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1px;
+      }
+      
+      .login__container--remember-me a {
+        color: rgb(96, 14, 121);
+        font-size: 14px;
+        text-decoration: underline;
+        right: 8px;
+      }
+      
+      .login__container--remember-me a:hover {
+        text-decoration: underline;
+        color: rgb(209, 65, 202);
+      }
+      
+      .login__container--social-media > div {
+        align-items: center;
+        display: flex;
+        font-size: 14px;
+        margin-bottom: 10px;
+        justify-content: center;
+        text-decoration: underline;
+         
+         
+      }
+      
+      .login__container--social-media > div > img {
+        margin-right: 50px;
+        width: 900px;
+       
+       
+        
+      }
+      
+      img{
+        width: 50px;
+   
+      }
+      .login__container--register {
+        display: flex;
+  flex-direction: column;
+    
+      }
+      
+      .login__container--register a {
+        color: rgb(68, 14, 90);
+        font-size: 16px;
+        text-align: center;
+        text-decoration: none;
+        
+      }
+      
+      .login__container--register a:hover {
+        text-decoration: underline;
+        color: rgb(46, 14, 121);
+      }
+      
+      /* .footer {
+        align-items: center;
+        background:#f8f8f8;
+        border-radius: 5px;
+        display: flex;
+        height: 100px;
+        width: 100%;
+      }
+      
+      .footer a {
+        color: rgb(255, 255, 255);
+   
+        cursor: pointer;
+        font-size: 14px;
+        padding-left: 30px;
+        text-decoration: none;
+      }
+      
+      .footer a:hover {
+        text-decoration: underline;
+      } */
+      
+      .input {
+        background-color: transparent;
+        border-bottom: 2px solid#47244e;
+        border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+        color: rgb(2, 2, 2);
+        font-family: 'Muli', sans-serif;
+        font-size: 16px;
+        height: 50px;
+        margin-bottom: 20px;
+        outline: none;
+        padding: 0px 20px 0px;
+      }
+      
+      ::placeholder {
+        color: rgb(68, 14, 90);
+      }
+      
+      .button {
+        background-image: linear-gradient(#b620ca, #701569 );
+        border: none;
+        border-radius: 25px;
+        color: white;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'Muli', sans-serif;
+        height: 50px;
+        letter-spacing: 1px;
+        margin: 10px 0px;
+      }
+      .button:hover {
+        background-image: linear-gradient(#701569,#b620ca  );
+              border: none;
+              border-radius: 25px;
+              color: white;
+              cursor: pointer;
+              font-size: 16px;
+              font-weight: bold;
+              font-family: 'Muli', sans-serif;
+              height: 50px;
+              letter-spacing: 1px;
+              margin: 10px 0px;
+      }
+      
+      @media only screen and (max-width: 600px) {
+        .login__container {
+          background-color: transparent;
+          border: none;
+          box-shadow: none;
+          padding: 0px;
+          width: 100%;
+        }
+      /* 
+        .footer {
+          align-items: flex-start;
+          flex-direction: column;
+        }
+        .footer {
+          
+          background:#e282d5;
+          border-radius: 5px;
+          display: flex;
+          height: 100px;
+          width: 100%;
+        }
+        
+        .footer a {
+          color: rgb(0, 0, 0);
+     
+          cursor: pointer;
+          font-size: 14px;
+          padding-left: 30px;
+          text-decoration: none;
+        }
+        
+        .footer a:hover {
+          text-decoration: underline;
+        } */
+      .header__img {
+        margin-left: 0px;
+        width: 90px;
+        top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    
+.register__container {
+  box-shadow: 0 14px 28px rgb(212 206 206 / 25%), 4px -1px 20px 0px rgb(195 188 188 / 22%);
+        color: #722e80;
+        border-radius: 30px;
+        display: flex;
+        
+        flex-direction: column;
+        justify-content: space-around;
+       
+        padding: 10px 58px 10px;
+        width: 10px;
+}}
