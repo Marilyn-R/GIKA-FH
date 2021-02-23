@@ -1,0 +1,246 @@
+body {
+  margin: 0;
+  font-family: 'Muli', sans-serif;
+  
+}
+
+.header {
+  align-items: center;
+  
+  border-radius: 5px;
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  top: 0px;
+  width: 100%;
+}
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 300px;
+}
+
+.header__img {
+  margin-left: 0px;
+  width: 90px;
+  top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img{
+  width: 50px;
+
+}
+
+.register {
+  background-image: #f072df1f;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 30px;
+  min-height: calc(100vh - 200px); 
+}
+
+.register__container {
+  box-shadow: 0 14px 28px rgb(212 206 206 / 25%), 4px -1px 20px 0px rgb(195 188 188 / 22%);
+        color: #722e80;
+        border-radius: 30px;
+        display: flex;
+        
+        flex-direction: column;
+        justify-content: space-around;
+        min-height: 490px;
+        padding: 10px 58px 10px;
+        width: 300px;
+}
+
+.register__container--form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register__container a {
+  color: rgb(68, 14, 90);
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.register__container a:hover {
+  text-decoration: underline;
+  color: rgb(46, 14, 121);
+}
+
+.input {
+  background-color: transparent;
+        border-bottom: 2px solid#47244e;
+        border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+        color: rgb(2, 2, 2);
+        font-family: 'Muli', sans-serif;
+        font-size: 16px;
+        height: 50px;
+        margin-bottom: 20px;
+        outline: none;
+        padding: 0px 20px 0px;
+}
+
+::placeholder {
+  color: rgb(68, 14, 90);
+}
+
+.button {
+  background-image: linear-gradient(#b620ca, #701569 );
+        border: none;
+        border-radius: 25px;
+        color: white;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'Muli', sans-serif;
+        height: 50px;
+        letter-spacing: 1px;
+        margin: 10px 0px;
+}
+
+.button:hover {
+  background-image: linear-gradient(#701569,#b620ca  );
+        border: none;
+        border-radius: 25px;
+        color: white;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'Muli', sans-serif;
+        height: 50px;
+        letter-spacing: 1px;
+        margin: 10px 0px;
+}
+
+.login__container--social-media > div {
+  align-items: center;
+  display: flex;
+  font-size: 14px;
+  margin-bottom: 10px;
+  justify-content: center;
+  text-decoration: underline;
+   
+   
+}
+
+.login__container--social-media > div > img {
+  margin-right: 50px;
+  width: 900px;
+ 
+ 
+  
+}
+
+img{
+  width: 50px;
+
+}
+
+.login__container--register {
+  display: flex;
+flex-direction: column;
+
+}
+
+.login__container--register a {
+  color: rgb(68, 14, 90);
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  
+}
+
+.login__container--register a:hover {
+  text-decoration: underline;
+  color: rgb(46, 14, 121);
+}
+@media only screen and (max-width: 600px) {
+  .register__container {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0px;
+    width: 100%;
+  }
+
+  .footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+
+ 
+.login__container--social-media > div {
+  align-items: center;
+  display: flex;
+  font-size: 14px;
+  margin-bottom: 10px;
+  justify-content: center;
+  text-decoration: underline;
+   
+   
+}
+
+.login__container--social-media > div > img {
+  margin-right: 50px;
+  width: 900px;
+ 
+ 
+  
+}
+.header__img {
+  margin-left: 0px;
+  width: 90px;
+  top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img{
+  width: 50px;
+
+}
+
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 300px;
+}
+.login__container--register {
+  display: flex;
+flex-direction: column;
+
+}
+
+.login__container--register a {
+  color: rgb(68, 14, 90);
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  
+}
+
+.login__container--register a:hover {
+  text-decoration: underline;
+  color: rgb(46, 14, 121);
+}
+.register__container {
+  box-shadow: 0 14px 28px rgb(212 206 206 / 25%), 4px -1px 20px 0px rgb(195 188 188 / 22%);
+        color: #722e80;
+        border-radius: 30px;
+        display: flex;
+        
+        flex-direction: column;
+        justify-content: space-around;
+      
+        padding: 10px 58px 10px;
+        width: 200px;
+}}
